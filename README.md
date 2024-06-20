@@ -1,31 +1,56 @@
-# React + TypeScript + Vite
+# Carrito de Compras
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Carrito de Compras](https://github.com/frediiesp/carritocompras_ts/blob/master/screenshot.webp)
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Carrito de Compras es una aplicación web desarrollada con React que permite a los usuarios agregar, eliminar y gestionar guitarras en su carrito de compras. La aplicación está desplegada en [Vercel](https://carritocompras_ts-iota.vercel.app/).
 
-## Expanding the ESLint configuration
+## Características
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Añadir productos al carrito
+- Eliminar productos del carrito
+- Actualizar la cantidad de productos en el carrito
+- Visualizar el total del carrito
+- Permanencia de productos en el carrito al recargar.
+- Interfaz amigable y responsive
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologías Utilizadas
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **React** - Biblioteca de JavaScript para construir interfaces de usuario
+- **TypeScript** - Superset de JavaScript que añade tipos estáticos
+- **CSS** - Para el estilo de la aplicación
+- **Vite** - Herramienta de construcción rápida para proyectos web
+- **Vercel** - Plataforma para el despliegue de aplicaciones web
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# carritocompras_ts
+## Instalación y Ejecución
+
+Sigue estos pasos para ejecutar el proyecto localmente:
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/frediiesp/carritocompras_ts.git
+
+2. Navega al directorio del proyecto:
+   ```bash
+   cd carritocompras
+
+3. Instala las dependencias:
+   ```bash
+   npm install
+
+4. Ejecuta la aplicación:
+   ```bash
+   npm run dev
+
+5. Abre tu navegador y visita http://localhost para ver la aplicación en funcionamiento
+
+## Despliegue
+
+El proyecto está desplegado en Vercel y puedes acceder a la aplicación en el siguiente enlace: [Carrito de Compras](https://carritocompras_ts-iota.vercel.app/).
+
+## Contacto
+
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de [byfrediiesp@gmail.com](mailto:byfrediiesp@gmail.com).
+
+¡Gracias por visitar mi proyecto!
