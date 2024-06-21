@@ -4,7 +4,7 @@
 
 ## Descripción
 
-Carrito de Compras es una aplicación web desarrollada con React que permite a los usuarios agregar, eliminar y gestionar guitarras en su carrito de compras. La aplicación está desplegada en [Vercel](https://carritocompras-ts-iota.vercel.app/).
+Carrito de Compras es una aplicación web desarrollada con React que permite a los usuarios agregar, eliminar y gestionar guitarras en su carrito de compras. La aplicación está desplegada en [Vercel](https://carritocompras-ts.vercel.app/).
 
 ## Características
 
@@ -47,7 +47,7 @@ Sigue estos pasos para ejecutar el proyecto localmente:
 
 ## Despliegue
 
-El proyecto está desplegado en Vercel y puedes acceder a la aplicación en el siguiente enlace: [Carrito de Compras](https://carritocompras-ts-iota.vercel.app/).
+El proyecto está desplegado en Vercel y puedes acceder a la aplicación en el siguiente enlace: [Carrito de Compras](https://carritocompras-ts.vercel.app/).
 
 ## Contacto
 
